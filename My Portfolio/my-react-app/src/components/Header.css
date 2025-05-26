@@ -1,0 +1,117 @@
+body{
+    height: 40%;
+    margin: 0;
+    font-family: 'SF Pro Display', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    
+
+}
+.header{
+    position: fixed;
+    top: 0;  
+    justify-content:space-between;
+    box-sizing: border-box;
+    flex-wrap:wrap;
+    display:flex;
+    gap: 10px;
+    background-color: black;
+    width:100%;
+    padding: 20px 20px; 
+   
+}
+.header div{
+    border-radius: 25px;
+    padding: 10px 12px;
+    align-items: center;
+    display: flex; /* Make the div a flex container */
+    justify-content: center;
+    height: 20px;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.div_2 a{
+    color: black;
+    
+}
+.div_0 a, .div_1 a{
+    color: rgb(255, 255, 255, 1);
+}
+
+.div_0{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    gap: 20px;
+}
+
+.div_0 img{
+    height: 20px;
+    width: 20px;
+    
+}
+.div_0 div{
+    padding:0;
+    margin: 0;
+    border: 0;
+    
+}
+
+.div_1{
+    display:flex;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  
+}
+
+@media screen and (max-width: 700px) {
+.div_0{
+    display:flex;
+    position: static;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: auto;
+
+}
+.div_1{
+    display:flex;
+    position: static;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: auto;
+    padding:0;
+    margin: 0;
+    border: 0;
+    transform: translateX(0);
+
+}
+.div_2{
+    display:flex;
+    position:static;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: auto;
+    padding:0;
+    margin: 0;
+    border: 0;
+    float: right;
+
+}
+}
+
+
+.div_2{
+    display:flex;
+    gap:10px;
+    background-color: white;
+    float: right;
+   
+}
+
+/* ----------- */
+
+

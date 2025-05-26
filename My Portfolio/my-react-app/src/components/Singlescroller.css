@@ -1,0 +1,130 @@
+
+@font-face {
+  font-family: "Jersey 10";
+  src: url(../assets/fonts/jersey10-regular-webfont.woff) format('woff'); 
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alfa Slab One";
+  src: url(../assets/fonts/alfaslabone-regular-webfont.woff) format('woff'); 
+  font-weight: 100;
+  font-style:normal;
+}
+@font-face {
+  font-family: "Alfa Slab One";
+  src: url(../assets/fonts/alfaslabone-regular-webfont.woff) format('woff'); 
+  font-weight: 100;
+  font-style:normal;
+}
+
+
+.wrapper span{
+    font-style: normal;
+    font-family: "Jersey 10", sans-serif;
+    font-weight:lighter;
+}
+
+.wrapper ul li{
+    padding: 0;
+    font-size: 40px;
+    color: #EFEBDB;
+    margin: 0;
+    border: 0;
+ }
+
+.wrapper {
+    padding-block: 0px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    user-select: none;
+    display: flex;
+    background-color: black;
+    
+    --gap: 1px;
+    gap:var(--gap)
+}
+
+.wrapper ul{
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+    font-size: 0;
+    animation: scroll 100s linear infinite paused;  
+    padding: 0;
+    opacity: 0.2;
+}
+/* .wrapper ul:first-child{
+    background-color: rgb(0, 0, 0);
+}
+
+.wrapper ul:last-child{
+    background-color: rgb(0, 0, 0);
+} */
+
+
+
+@keyframes scroll{
+    to{
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+/* .wrapper :hover{
+    animation: scroll 20s linear infinite;
+} */
+
+.wrapper:hover ul {
+    animation-play-state: running;
+}
+
+.app-header{
+    position:fixed;
+    z-index: 2;
+    /* height: 60px; */
+    border: 0px solid rgb(0, 4, 255);
+}
+
+.scrolldiv{
+    position: relative;
+    /* margin-top: 50px; */
+}
+.scrollmap{
+    position: relative;
+    overflow-y: auto;
+    z-index: 1;
+}
+.scrolltext{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+} 
+.nametitle{
+    font-family: "Alfa Slab One";
+    position: relative;
+    color: #ffffff;
+    font-size: clamp(4.5rem,5vw + .7rem ,9.5rem);
+    padding: 40px 0px 20px 0px;
+    /* border: 2px solid rgb(0, 4, 255); */
+    
+}
+.nametitleintro{
+    color: #000000;
+    font-size: 100;
+    font-size: clamp(0.5rem,1vw + .7rem ,1rem);
+
+}
+.introdiv{
+    max-width: 600px;
+    right:40%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+
+} 

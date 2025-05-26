@@ -1,0 +1,40 @@
+.padding{
+    
+    padding:'0px 0px 70px 0px'
+}
+.projectpan{
+    background-color: #D2CDB8;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 300px;
+    width: 100%;
+    padding:'0px 0px 0px 0px'
+
+}
+.pimage{
+    background-color: rgb(236, 236, 236);
+    height: 250px;
+    width: 350px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.imagdescription{
+    max-width: 500px;
+    margin: 40px;
+}
+.projectpan p{
+    font-size: 19px;
+}
+.projectpan button{
+    background: black;
+    color: white;
+    font-size: 18px;
+    width: 120px;
+    height: 39px;
+    border-radius: 5px;
+    border-color: #EABC22;
+}
