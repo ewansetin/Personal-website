@@ -38,7 +38,7 @@ function Singlescroller(prop) {
                 <span style={{color:(prop.color27)}}>{prop.value27} </span>
               </li>
             </ul>
-            <ul aria-hidden = "true">
+            <ul aria-hidden = "true" style={{opacity:(prop.opacity)}}>
               <li>
                 <span style={{color:(prop.color1)}}>{prop.value1} </span>
                 <span style={{color:(prop.color2)}}>{prop.value2} </span>

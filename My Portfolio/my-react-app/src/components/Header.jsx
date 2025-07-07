@@ -12,9 +12,9 @@ function Header(prop) {
           <Link class = "Link" to="/"><img src={mylogo} alt=''/></Link>
           </div>
           <div>
-          <a href="https://www.linkedin.com/in/chance-egbon" target="_blank" rel="noopener noreferrer"><img src={mylinkedinlogo} alt='My Logo - Click to visit LinkedIn'/></a>
+          <a href="https://www.linkedin.com/in/chance-egbon" target="_blank" rel="noopener noreferrer"><img src={mylinkedinlogo} alt='linkedin Logo - Click to visit LinkedIn'/></a>
           </div>
-           <a href="https://www.linkedin.com/in/chance-egbon" target="_blank" rel="noopener noreferrer"><img src={githublogo} alt=''/></a>
+           <a href="https://github.com/ewansetin" target="_blank" rel="noopener noreferrer"><img src={githublogo} alt='github Logo - Click to visit Github'/></a>
           <div>
             <a href="" target="" rel="">Resume</a>
             </div>

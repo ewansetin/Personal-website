@@ -54,7 +54,7 @@
     align-items: center;
     gap: 1px;
     font-size: 0;
-    animation: scroll 100s linear infinite paused;  
+    animation: scroll 10s linear infinite paused;  
     padding: 0;
     opacity: 0.2;
 }
@@ -71,6 +71,7 @@
 @keyframes scroll{
     to{
         transform: translateX(calc(-100% - var(--gap)));
+        opacity: 0.8;
     }
 }
 
