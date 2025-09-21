@@ -5,7 +5,7 @@ This repository contains my personal website, developed with HTML, CSS, JavaScri
 
 ## Overview
 
-![Screenshot](/Assets/images/HomePage.jpg)
-![Screenshot](Assets/images/ProfilePage.jpg)
+<img src="/Assets/images/HomePage.jpg" alt="HomePage" width="300">
+<img src="/Assets/images/ProfilePage.jpg" alt="ProfilePage" width="300">
 
 ## Design
