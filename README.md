@@ -2,7 +2,7 @@
 ## Overview
 A modern, responsive personal website built with React and enhanced with Figma-designed assets. This project showcases my professional portfolio, skills, and projects through an intuitive and visually appealing interface.
 
-# Features
+## Features
 
 
 
